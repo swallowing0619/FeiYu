@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mylibrary"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/快递员/jars/com.sun.net.httpserver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/快递员/jars/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/快递员/jars/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/快递员/jars/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/快递员/jars/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/快递员/jars/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/快递员/jars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/快递员/jars/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/快递员/jars/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

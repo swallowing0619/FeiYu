@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   android:background="@color/mine_backg"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mine_layoutclickchange"
+      android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal" >
+    
+    <View
+        android:layout_width="18dp"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundcolor" />
+
+    <TextView
+        android:id="@+id/model_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:maxLines="3"
+        android:textSize="18sp"
+        android:text="天天快递，见短信后到湖大公寓里面天天快递对面_号柜台领取（鸿福网吧对面）最迟晚上10点钱务必来取。寄快递全国十元起~~~"
+        android:textColor="@color/gray4" />
+
+    </LinearLayout>
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mine_backg" />
+</LinearLayout>

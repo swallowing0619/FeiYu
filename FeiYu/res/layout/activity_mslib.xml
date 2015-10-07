@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mine_backg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:paddingBottom="20dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="15dip"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:background="@drawable/mine_layoutclickchange"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/mine_backg" />
+
+                <RelativeLayout
+                    android:id="@+id/checksend_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mine_layoutclickchange"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="@dimen/dimen_userinfo_image"
+                        android:layout_height="@dimen/dimen_userinfo_image"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:src="@drawable/record" />
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen_userinfo_arrow"
+                        android:layout_height="@dimen/dimen_userinfo_arrow"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dip"
+                        android:src="@drawable/setting_arrow" />
+
+                    <TextView
+                        style="@style/setting_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/imageView1"
+                        android:text="发送记录"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/mine_backg" />
+ 		<RelativeLayout
+                    android:id="@+id/sendfailure_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mine_layoutclickchange"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="@dimen/dimen_userinfo_image"
+                        android:layout_height="@dimen/dimen_userinfo_image"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:src="@drawable/fail" />
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen_userinfo_arrow"
+                        android:layout_height="@dimen/dimen_userinfo_arrow"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dip"
+                        android:src="@drawable/setting_arrow" />
+
+                    <TextView
+                        style="@style/setting_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/imageView3"
+                        android:text="失败记录"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+              
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/mine_backg" />
+
+                <RelativeLayout
+                    android:id="@+id/waitsend_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mine_layoutclickchange"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="@dimen/dimen_userinfo_image"
+                        android:layout_height="@dimen/dimen_userinfo_image"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:src="@drawable/wait" />
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen_userinfo_arrow"
+                        android:layout_height="@dimen/dimen_userinfo_arrow"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dip"
+                        android:src="@drawable/setting_arrow" />
+
+                    <TextView
+                        style="@style/setting_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/imageView3"
+                        android:text="待发送记录"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/mine_backg" />
+
+                <RelativeLayout
+                    android:id="@+id/sendpersent_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mine_layoutclickchange"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="@dimen/dimen_userinfo_image"
+                        android:layout_height="@dimen/dimen_userinfo_image"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:src="@drawable/percent" />
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen_userinfo_arrow"
+                        android:layout_height="@dimen/dimen_userinfo_arrow"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dip"
+                        android:src="@drawable/setting_arrow" />
+
+                    <TextView
+                        style="@style/setting_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/imageView4"
+                        android:text="统计发送率"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

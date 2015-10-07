@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray3"
+    android:orientation="vertical" >
+
+     <include layout="@layout/title_bar" />
+    
+
+    <EditText
+        android:id="@+id/foresee_text"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_login_div"
+        android:padding="10dp"
+        android:text="【中通快递】请12:00到德智门口取您的快递。欢迎选择中通---国内快递10元起"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/phonelistViewforsee"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_weight="1" >
+        
+         <Button
+            android:id="@+id/timer_send"
+            android:layout_width="98dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/use_lib_buttonshap"
+            android:gravity="center|center_horizontal"
+            android:text="定时发送"
+            android:textColor="#ffffff"
+           android:textSize="@dimen/button_txt_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="98dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/use_lib_buttonshap"
+            android:gravity="center|center_horizontal"
+            android:text="立即发送"
+            android:textColor="#ffffff"
+           android:textSize="@dimen/button_txt_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

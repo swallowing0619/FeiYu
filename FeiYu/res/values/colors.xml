@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="backgroundcolor">#35BC98</color>
+    <color name="gray1">#514444</color>
+    <color name="gray2">#A19C9C</color>
+    <color name="gray3">#E9E9E9</color>
+    <color name="gray4">#857C7C</color>
+    <color name="red1">#ff5c5c</color>
+    <color name="red2">#f79d9d</color>
+    <color name="green1">#7BDBD2 </color>
+    <color name="white">#ffffff</color>
+    <color name="greenbackg">#35BC98</color>
+	<color name="mine_backg">#eeeeee</color>
+	 <color name="focuschangeTvcolor">#35BC98</color>
+
+	  <color name="blue">#FF0000FF</color>
+    <color name="transparent_blue">#800000FF</color>
+    <color name="green">#FF00FF00</color>
+    <color name="green_light">#FF99CC00</color>
+    <color name="orange">#FFFFBB33</color>
+    <color name="transparent_orange">#80FFBB33</color>
+    <color name="purple">#FFAA66CC</color>
+</resources>

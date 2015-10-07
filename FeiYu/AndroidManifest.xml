@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.feiyu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- 访问网络权限 -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.example.wait.WaitActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.login.FirstActivity"
+            android:label="@string/title_activity_first" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.login.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.login.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.login.ForgetActivity"
+            android:label="@string/title_activity_forget" >
+        </activity>
+        <activity
+            android:name="com.example.feiyumain.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.feiyumain.SlideActivity"
+            android:label="@string/title_activity_slide"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.example.feiyumain.EditMSActivity"
+            android:label="@string/title_activity_editMS" >
+        </activity>
+        <activity
+            android:name="com.example.feiyumain.MSLibraryActivity"
+            android:label="@string/title_activity_MSLibrary" >
+        </activity>
+        <activity
+            android:name="com.example.feiyumain.EnterPhoneActivity"
+            android:label="@string/title_activity_enterPhone"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.example.feiyumain.UserInfoActivity"
+            android:label="@string/title_activity_userInfo" >
+        </activity>
+        <activity
+            android:name="com.example.feiyumain.ForseeMSActivity"
+            android:label="@string/title_activity_forseems" >
+        </activity>
+        <activity
+            android:name="com.example.userui.PersonalActivity"
+            android:label="@string/title_activity_personal" >
+        </activity>
+        <activity
+            android:name="com.example.userui.PersonalEditActivity"
+            android:label="@string/title_activity_personalEdit" >
+        </activity>
+        <activity
+            android:name="com.example.userui.PayActivity"
+            android:label="@string/title_activity_pay" >
+        </activity>
+        <activity
+            android:name="com.example.userui.AboutFishActivity"
+            android:label="@string/title_activity_aboutfish" >
+        </activity>
+        <activity
+            android:name="com.example.userui.FunctionIntroActivity"
+            android:label="@string/title_activity_functionintro" >
+        </activity>
+        <activity
+            android:name="com.example.userui.ConnectusActivity"
+            android:label="@string/title_activity_connectus" >
+        </activity>
+        <activity
+            android:name="com.example.userui.FeedbackActivity"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.login.LoadingActivity"
+            android:label="@string/title_activity_loading"
+            android:theme="@style/MyDialogStyle" >
+        </activity>
+        <activity
+            android:name="com.example.addfunction.WaitSendActivity"
+            android:label="@string/title_activity_customercheck" >
+        </activity>
+        <activity
+            android:name="com.example.addfunction.FailCheckActivity"
+            android:label="@string/title_activity_failcheck" >
+        </activity>
+        <activity
+            android:name="com.example.addfunction.SendCheckActivity"
+            android:label="@string/title_activity_sendcheck" >
+        </activity>
+        <activity
+            android:name="com.example.addfunction.SendPersentActivity"
+            android:label="@string/title_activity_sendpersent" >
+        </activity>
+    </application>
+
+</manifest>

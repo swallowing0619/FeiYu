@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">飞鱼</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first">飞鱼</string>
+    
+    <string name="title_activity_login">飞鱼</string>
+    <string name="title_activity_register">register_activity</string>
+    <string name="title_activity_forget">forget_activity</string>
+    
+    <string name="title_activity_main">main_activity</string>
+     <string name="title_activity_userInfo">userInfo_activity</string>
+      <string name="title_activity_editMS">main_activity</string>
+       <string name="title_activity_MSLibrary">msLibrary_activity</string>
+        <string name="title_activity_enterPhone">enterPhone_activity</string>
+       	<string name="title_activity_forseems">forseems_activity</string>
+       	<string name="title_activity_slide">slide_activity</string>
+   	 <string name="title_activity_personal">personal_activity</string>
+     <string name="title_activity_personalEdit">personalEdit_activity</string>
+     <string name="title_activity_aboutfish">aboutfish_activity</string>
+    <string name="title_activity_functionintro">functionintro_activity</string>
+    <string name="title_activity_connectus">connectus_activity</string>
+    <string name="title_activity_feedback">feedback_activity</string>
+    <string name="title_activity_pay">pay_activity</string>
+    <string name="title_activity_loading">loading_activity</string>
+       <string name="title_activity_customercheck">loading_activity</string>
+        <string name="title_activity_failcheck">loading_activity</string>
+         <string name="title_activity_sendcheck">loading_activity</string>
+          <string name="title_activity_sendpersent">loading_activity</string>
+
+      
+     
+     <string name="connectus">\n公司：善始科技公司\n公司地址：湖南省长沙市岳麓区\n联系电话：15200871747\n</string>
+    <string name="functionintroduce">欢迎使用飞鱼助手！\n
+        ①当你先进入编辑短信界面后，选择要发送的短信，然后点击下一步进入输入号码（选择区号），之后预览无误后就会群发了！ \n
+        ②你也可以先输入号码（选择区号），再进入编辑短信界面，选择要发送的短信，预览之后也可以发送！\n
+        ③点击辅助功能可以查看你的发送记录及发送信息的成功率等\n
+        ④个人信息中可以编辑你的个人信息，也可以充值，查看奖励、版本等~都可以试试哟~</string>
+     
+
+</resources>

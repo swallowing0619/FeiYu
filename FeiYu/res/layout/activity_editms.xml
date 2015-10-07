@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp" >
+
+        <EditText
+            android:id="@+id/newms_text"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_login_div"
+            android:maxLength="70"
+            android:minLines="5"
+            android:padding="10dp"
+            android:text="xx快递。请于xx至xx到xxxx取件。请及时取件哦，亲！联系电话15200000000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textCount"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="44/70" >
+        </TextView>
+
+        <ListView
+        android:id="@+id/model_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10" >
+    </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="@dimen/button_weight"
+            android:layout_height="@dimen/button_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonshape2"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="@color/gray4"
+            android:textSize="@dimen/button_txt_size" />
+
+        <Button
+            android:id="@+id/use"
+            android:layout_width="@dimen/button_weight"
+            android:layout_height="@dimen/button_height"
+            android:layout_alignBaseline="@+id/save"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/buttonshape2"
+            android:gravity="center"
+            android:text="下一步"
+            android:textColor="@color/gray4"
+            android:textSize="@dimen/button_txt_size" />
+    </RelativeLayout>
+
+</LinearLayout>
